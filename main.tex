@@ -1,53 +1,14 @@
-\documentclass[12pt,twoside]{article}
-\usepackage{mathtext}
-\usepackage[T2A]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[english, russian]{babel}
-\usepackage[pdftex]{graphicx,rotating}
-\usepackage{amssymb}
-\usepackage{amsthm}
-\usepackage{bm}
-\usepackage{color}
-\usepackage{latexsym}
-\usepackage{titlesec}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{cite}
-\usepackage{indentfirst}
-\usepackage{enumitem}
-\setlist{noitemsep}
-\usepackage{cmap}
-\usepackage[a4paper, left=25mm, right=20mm, bottom=20mm, top=20mm]{geometry}
-\frenchspacing
-\pagestyle{plain}
-\setlength{\parindent}{0cm}
+\documentclass{article}
+
+\title{8}
+\author{zotov0207}
+\date{September 2023}
 
 \begin{document}
-\centerline{\bf\large Писменная рецензия команды ЛНМО-7}	
-\centerline{\bf\large на задачу \textnumero9 ``Разные средние''}
-\centerline{\bf\large команды гимназии \textnumero1 г.~Витебска}
-\vspace{6pt}
-\subsection*{Резюме по итогам проведённого исследования}
-\noindent Заявлены пункты 1, 1.1, 1.2, 2, 2.1, 3. Наша команда считает полностью решёнными только пункт 1; пункты 1.1, 2~--- частично решёнными; пункты 1.2, 2.1 и 3~--- неверно решенными.
 
-\subsection*{Серьёзные ошибки}
-\begin{itemize}
-\item В пункте 1.1 автор отвечает на один из двух вопросов ``Cколько сыра осталось в магазине после первых $K$ покупателей?'', игнорируя вопрос ``Определите, для каких пар натуральных чисел ($K$, $M$) такое возможно.''
-\item В решении пункта 1.2 автор считает что пункт не корректен, однако к нему приводит ответ, без пояснения откуда он взялся. Также наша команда считает, что приведенный автором ответ <<возможно>> не отвечает на вопрос задачи.
-\item В пункте 2.1. по аналогии с пунктом 2 получена общая формула, которая неверна. Так как, если в эту формулу подставить данные из пункта 2, то не получается ответ 85~км, который является правильным ответом на пункт 2\\
-(см. https://problems.ru/view\_problem\_details\_new.php?id=98513).
-\item Из авторского решения пункта 3 следует более сильная оценка про 80\%, которая совсем не следует из решения данного пункта \\
-(см. https://problems.ru/view\_problem\_details\_new.php?id=98526), в котором оценка в 75\% и её повысить до 80\% не получится.
-\end{itemize}
+\include{titlepage}
+\pagebreak
 
-\subsection*{Недочёты и Опечатки}
-\begin{itemize}
-\item Высказывание в пунктах 1 и 1.1  ``$\frac{x_1 + x_2}{2} + 10\cdot\frac{x_1 + x_2}{2} = 20$ '',~--- неправда. Мы склонны полагать, что автор случайно поделил на 2 выражение $x_1+x_2$, ибо далее приведены верные рассуждения.
-\item В пунктах  1 и 1.1 отсутвуют объяснения в этих и следующих выражениях  $x_1 + x_2 + x_3 = \frac{20\cdot3}{13}\ldots$ в первом пункте и $x_1 + x_2 + x_3 = \frac{100\cdot3}{M+3}\ldots$ во втором пункте.
-\item В решении пункта 2 не хватает запятой после этого выражения $60 - xt = \frac{40+xt}{t+\frac{2}{3}}$ из-за чего можно подумать что происходит умножение на $(60-хt)\left(t + \frac{2}{3}\right)$.
-\item В ответе пункта 2 ответ написан в $\frac{\text{км}}{\text{ч}}$ хотя просят расстояние.
-\end{itemize}
+\input{bird}
 
-\subsection*{Качественная оценка исследования}
-Местами автором была проделана хорошая работа. Однако в пунктах присутствуют как ошибки, так и недочеты, а также в некоторых пунктах отсутствуют объяснения. В целом следует признать, что работа авторами выполнена \textit{средне}.
 \end{document}
